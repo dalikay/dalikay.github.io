@@ -26,3 +26,6 @@ element.style {
     background-image: url(https://cdn.discordapp.com/attachments/1003211687412912169/1006952677273518110/ezgif.com-gif-maker.png);
     background-size: contain;
 }
+body {
+    font-family: Lucida Console;
+}
