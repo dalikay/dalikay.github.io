@@ -1,1 +1,0 @@
-# dalikay.github.io
