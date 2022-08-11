@@ -1,0 +1,59 @@
+/**
+        ___________         __
+       /  _____   \ \      /  \
+      /  /\_____\  \ \    /    \
+     /  / /     /  / /   /      \
+    /  / /     /  / /   /   /\   \
+   /  / /     /  / /   /   //_\   \
+  /  / /     /  / /   /            \
+ /  / /___ ⋰  / /   /    ______    \
+|___________⋰  /   /____/\_____\____\
+\____________ ⋰   |______/     |____|
+ * @name Memes discord
+ * @author Даликай | Даликай#5754
+ * @authorLink https://youtube.com/c/dalikay
+ * @version 0.0.1
+ * @description Это дискорд 2017-2021!
+ * @source https://github.com/dalikay/dalikay.github.io/tree/main
+ * @website https://djmembers.glitch.me/
+*/
+.avatarWrapperNormal-ahVUaC {
+    left: 100px;
+}
+.banner-1YaD3N.popoutBanner-3cqRD9 {
+    height: 150px;
+    top: -5px;
+}
+.headerTop-3GPUSF {
+    top: -100px;
+    left: 60px;
+    right: 60px;
+}
+.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt {
+    top: -80px;
+}
+element.style {
+    background-color: rgb(0, 200, 255);
+}
+.popoutBanner-3cqRD9 .pencilContainer-18TrEJ, .popoutBannerPremium-3i5EEI .pencilContainer-18TrEJ {
+    top: -200px;
+    right: -100px;
+    width: 500px;
+    height: 340px;
+}
+.pencilContainer-18TrEJ {
+    background-color: var(--background-floating);
+    border-radius: 0%;
+}
+.userPopout-2j1gM4 {
+    background-color: var(--background-secondary-alt);
+}
+.customStatus-3XAoF9 {
+    background-color: var(--background-secondary-alt);
+}
+.bodyInnerWrapper-2bQs1k {
+    background-color: var(--background-secondary-alt);
+}
+.theme-dark {
+--background-secondary-alt: hsl(220,calc(var(--saturation-factor, 1)*6.8%),17.3%);
+}
