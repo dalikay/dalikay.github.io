@@ -9,11 +9,23 @@
  /  / /___ ⋰  / /   /    ______    \
 |___________⋰  /   /____/\_____\____\
 \____________ ⋰   |______/     |____|
- * @name Memes discord
+ * @name Fnf note
  * @author Даликай | Даликай#5754
  * @authorLink https://youtube.com/c/dalikay
- * @version 0.0.1
- * @description Это дискорд 2017-2021!
- * @source https://github.com/dalikay/dalikay.github.io/tree/main/theme/old-discord
+ * @version 1.0.0
+ * @description Ctrl + /
+ * @source https://github.com/dalikay/dalikay.github.io/tree/main/theme/fnf-note
  * @website https://djmembers.glitch.me/
 */
+.ddrArrows-24s05s .arrow-hkea5Y.left-n0qLrU {
+    background-image: url(https://dalikay.github.io/theme/fnf-note/images/left.png);
+}
+.ddrArrows-24s05s .arrow-hkea5Y.down-3tFLkY {
+    background-image: url(https://dalikay.github.io/theme/fnf-note/images/down.png);
+}
+.ddrArrows-24s05s .arrow-hkea5Y.up-C6wQCy {
+    background-image: url(https://dalikay.github.io/theme/fnf-note/images/up.png);
+}
+.ddrArrows-24s05s .arrow-hkea5Y.right-2w8sx7 {
+    background-image: url(https://dalikay.github.io/theme/fnf-note/images/right.png);
+}
