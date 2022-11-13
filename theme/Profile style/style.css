@@ -1,0 +1,35 @@
+/**
+        ___________        ____
+       /  _____   \ \     /    \
+      /  /\_____\  \ \   /      \
+     /  / /     /  / /  /        \
+    /  / /     /  / /  /    /\    \
+   /  / /     /  / /  /    //_\    \
+  /  / /     /  / /  /              \
+ /  / /___ ⋰  / /   /    ______      \
+|___________⋰  /   /____/\_____\______\
+\____________ ⋰   |______/     |______|
+ * @name Profile style
+ * @authorLink https://youtube.com/c/dalikay
+ * @version 1.0.0
+ * @description This theme will allow you to customize your and other Discord profiles. (This only works with standard profiles for now!) Look for the pencil button in the bottom right corner of the theme options.
+ * @source https://dalikay.github.io/theme/Profile-style
+ * @website https://github.com/dalikay/dalikay.github.io
+*/
+.userPopoutOuter-3AVBmJ.userProfileOuter-1K_BYU.userProfileOuterThemed-3EfHmv.profileColors-3Y0XaR.theme-light.profileCustomizationPreviewWithTheme-1R9hxb.profileCustomizationPreview-2-Y173 {
+    background: linear-gradient(
+315deg
+, #ff1800, gold);
+}
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY, .userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY {
+    background: var(--color);
+}
+.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi, .userProfileModalOverlayBackground-8p3-eU.overlayBackground-1KgwVi {
+    opacity: 70%;
+}
+.headerTop-212g15, img.profileBadge24-3UMhUO.profileBadge-2YySEb.desaturate-_Twf3u{
+    opacity: 60%;
+}
+svg.additionalActionsIcon-1IPuHI {
+    color: #000000;
+}
