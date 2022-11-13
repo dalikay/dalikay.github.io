@@ -1,0 +1,7 @@
+h2.defaultColor-24IHKz.heading-xl-medium-_XBxHT.defaultColor-HXu-5n.header-1N6Qea {
+    color: #0000;
+}
+h2.defaultColor-24IHKz.heading-xl-medium-_XBxHT.defaultColor-HXu-5n.header-1N6Qea::after {
+    content: ' Вы не можете покупать. Потому что вы Русские, а мы должны для вас закрыть доступ к способам оплаты, НаМ жЕ эТо ТаК вЫгОдНо!';
+    color: #fff;
+}
