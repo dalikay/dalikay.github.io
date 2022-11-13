@@ -1,0 +1,73 @@
+/**
+        ___________        ____
+       /  _____   \ \     /    \
+      /  /\_____\  \ \   /      \
+     /  / /     /  / /  /        \
+    /  / /     /  / /  /    /\    \
+   /  / /     /  / /  /    //_\    \
+  /  / /     /  / /  /              \
+ /  / /___ ⋰  / /   /    ______      \
+|___________⋰  /   /____/\_____\______\
+\____________ ⋰   |______/     |______|
+ * @name 
+ * @authorLink https://youtube.com/c/dalikay
+ * @version 1.0.0
+ * @description Старый дискорд с другой темой.
+ * @source https://github.com/dalikay/dalikay.github.io/edit/main/theme/Nitro%20troll/
+ * @website https://youtu.be/dQw4w9WgXcQ
+*/
+.userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY {
+    background: linear-gradient(45deg, #002bff, #00ffd5);
+}
+.userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi {
+    opacity: 70%;
+}
+button.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
+    background: linear-gradient(65deg, #6200ff, #ff003b);
+	border-radius: 3px;
+}
+button.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
+    content: attr(aria-label);
+}
+.userProfileModalInner-3fh3QA.userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY {
+    background: linear-gradient(0deg, #002bff, #00ffd5);
+}
+.userProfileModalOverlayBackground-8p3-eU.overlayBackground-1KgwVi {
+    opacity: 70%;
+}
+/*Зелённая кнопка*/
+button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
+    border-radius: 3px;
+    background: linear-gradient(65deg, #002bff, #00ffd5);
+    top: -19px;
+    left: -53%;
+    height: 38px;
+    width: 220px;
+}
+/*Крассная кнопка*/
+button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
+    border-radius: 3px;
+    background: linear-gradient(-110deg, #6200ff, #ff003b);
+    top: 25px;
+    left: 119px;
+    height: 38px;
+    width: 220px;
+}
+/*Зелённая кнопка*/
+button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
+    content: attr(aria-label);
+}
+/*Крассная кнопка*/
+button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
+    content: attr(aria-label);
+}
+button.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ, button.active-3D763s.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
+    border-radius: 3px;
+    background: linear-gradient(65deg, #002bff, #00ffd5);
+}
+button.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
+    /*content: attr(aria-label);*/
+}
+.headerTop-212g15 {
+    opacity: 60%;
+}
