@@ -38,16 +38,16 @@ button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.gree
     top: -25px;
     left: -54%;
     height: 33px;
-    width: 215px;
+    width: 216px;
 }
 /*Крассная кнопка*/
 button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
     border-radius: 3px;
     background-color: var(--background-secondary);
     top: 28px;
-    left: 113px;
+    left: 116px;
     height: 33px;
-    width: 215px;
+    width: 214px;
 }
 /*Две кнопки*/
 button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
