@@ -44,13 +44,16 @@ button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.gree
 button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
     border-radius: 3px;
     background-color: var(--background-secondary);
-    top: 20px;
-    left: 114px;
-    height: 38px;
-    width: 220px;
+    top: 25px;
+    left: 119px;
+    height: 33px;
+    width: 215px;
 }
 /*Две кнопки*/
-button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ, button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
+button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
+    content: attr(aria-label);
+}
+button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ::after {
     content: attr(aria-label);
 }
 button.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ, button.active-3D763s.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
