@@ -35,7 +35,7 @@ button.controlButton-2PMNom.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.butt
 /*Зелённая кнопка*/
 button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.green-3wkLbx.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
     border-radius: 3px;
-    top: -19px;
+    top: -22px;
     left: -53%;
     height: 38px;
     width: 220px;
@@ -44,7 +44,7 @@ button.actionButton-2S7dMn.last-2rLGug.centerButton-1IShs7.colorable-3rVGna.gree
 button.actionButton-2S7dMn.centerButton-1IShs7.colorable-3rVGna.red-3T8maV.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ {
     border-radius: 3px;
     background-color: var(--background-secondary);
-    top: 25px;
+    top: 28px;
     left: 119px;
     height: 33px;
     width: 215px;
