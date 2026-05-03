@@ -1,0 +1,176 @@
+/* Общие стили */
+:root {
+    --primary-color: #ffffff;
+    --accent-color: #ff3b30;
+    --text-color: #ffffff;
+    --font-main: 'Montserrat', sans-serif;
+}
+
+/* Исправлен глобальный сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: #000;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+/* ========================================= */
+/* НАВИГАЦИЯ (Белая полоска)                 */
+/* ========================================= */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background: #ffffff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 32px;
+    width: auto;
+    display: block;
+}
+
+.navbar nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    opacity: 0.5;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    opacity: 1;
+}
+
+.navbar nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+/* ========================================= */
+/* КАТАЛОГ                                   */
+/* ========================================= */
+.catalog-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    padding-top: 75px; /* Отступ под фиксированную шапку */
+}
+
+.catalog-card {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.catalog-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.catalog-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Оверлей для текста (Исправлено выравнивание) */
+.catalog-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Градиент: темный сверху для заголовка и снизу для кнопки */
+    background: linear-gradient(to bottom, rgba(0, 57, 118, 0.7) 0%, transparent 30%, transparent 70%, rgba(0, 57, 118, 0.7) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Заголовок вверху, кнопка внизу */
+    align-items: center;            /* ИСПРАВЛЕНИЕ: Выравнивание всего контента по центру */
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.catalog-title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 70;
+    text-transform: uppercase;
+    text-align: center;             /* Текст по центру */
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+.btn-view {
+    background: #fff;
+    color: #000;
+    padding: 14px 30px;
+    border: none;
+    font-weight: 70;
+    font-size: 0.9rem;
+    font-family: var(--font-main);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    /* Убрали align-self: flex-start, теперь кнопка центрируется родителем */
+}
+
+.btn-view:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* ========================================= */
+/* АДАПТИВНОСТЬ                              */
+/* ========================================= */
+@media (max-width: 768px) {
+    .catalog-section {
+        flex-direction: column;
+        height: auto;
+        padding-top: 60px;
+    }
+    .catalog-card {
+        height: 400px;
+    }
+    .navbar {
+        padding: 15px 20px;
+    }
+    .catalog-overlay {
+        padding: 20px;
+    }
+    .catalog-title {
+        font-size: 1.2rem;
+    }
+}
