@@ -1,4 +1,3 @@
-/* Общие стили */
 :root {
     --primary-color: #ffffff;
     --accent-color: #ff3b30;
@@ -6,7 +5,6 @@
     --font-main: 'Montserrat', sans-serif;
 }
 
-/* Исправлен глобальный сброс стилей */
 * {
     margin: 0;
     padding: 0;
@@ -20,9 +18,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ========================================= */
-/* НАВИГАЦИЯ (Белая полоска)                 */
-/* ========================================= */
 .navbar {
     position: fixed;
     top: 0;
@@ -76,15 +71,12 @@ body {
     background: #000;
 }
 
-/* ========================================= */
-/* КАТАЛОГ                                   */
-/* ========================================= */
 .catalog-section {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100vh;
-    padding-top: 75px; /* Отступ под фиксированную шапку */
+    padding-top: 75px;
 }
 
 .catalog-card {
@@ -104,19 +96,17 @@ body {
     transform: scale(1.05);
 }
 
-/* Оверлей для текста (Исправлено выравнивание) */
 .catalog-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* Градиент: темный сверху для заголовка и снизу для кнопки */
     background: linear-gradient(to bottom, rgba(0, 57, 118, 0.7) 0%, transparent 30%, transparent 70%, rgba(0, 57, 118, 0.7) 100%);
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Заголовок вверху, кнопка внизу */
-    align-items: center;            /* ИСПРАВЛЕНИЕ: Выравнивание всего контента по центру */
+    justify-content: space-between;
+    align-items: center;
     padding: 40px 20px;
     box-sizing: border-box;
 }
@@ -126,7 +116,7 @@ body {
     font-size: 1.5rem;
     font-weight: 70;
     text-transform: uppercase;
-    text-align: center;             /* Текст по центру */
+    text-align: center;
     letter-spacing: 1px;
     text-shadow: 0 2px 8px rgba(0,0,0,0.8);
 }
@@ -142,7 +132,6 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     letter-spacing: 0.5px;
-    /* Убрали align-self: flex-start, теперь кнопка центрируется родителем */
 }
 
 .btn-view:hover {
@@ -152,9 +141,6 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* ========================================= */
-/* АДАПТИВНОСТЬ                              */
-/* ========================================= */
 @media (max-width: 768px) {
     .catalog-section {
         flex-direction: column;
