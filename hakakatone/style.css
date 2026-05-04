@@ -1,7 +1,6 @@
-/* Общие стили */
 :root {
     --primary-color: #ffffff;
-    --accent-color: #ff3b30; /* Красный акцент под цвет волос */
+    --accent-color: #ff3b30;
     --text-color: #ffffff;
     --font-main: 'Montserrat', sans-serif;
 }
@@ -26,22 +25,21 @@ body {
     width: 100%;
     padding: 20px 40px;
     display: flex;
-    justify-content: center; /* Меню по центру */
+    justify-content: center;
     align-items: center;
     z-index: 100;
     background: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
 }
 
 .logo {
-    position: absolute; /* Логотип слева, не влияет на центр */
+    position: absolute;
     left: 40px;
     display: flex;
     align-items: center;
 }
 
-/* Стили для картинки логотипа */
 .logo img {
-    height: 40px; /* Задаем высоту, ширина подстроится автоматически */
+    height: 40px;
     width: auto;
     display: block;
 }
@@ -60,7 +58,6 @@ body {
     opacity: 1;
 }
 
-/* Hero Section */
 .hero-section {
     position: relative;
     height: 100vh;
@@ -71,14 +68,12 @@ body {
     overflow: hidden;
 }
 
-/* Фон города */
 .bg-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* Замените URL на фото города */
     background-image: url('images/1.png'); 
     background-size: cover;
     background-position: center;
@@ -86,22 +81,20 @@ body {
     filter: brightness(0.8);
 }
 
-/* Огромный заголовок ECHO */
 .big-title {
     position: absolute;
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 25vw; /* Очень большой размер */
+    font-size: 25vw;
     font-weight: 900;
     color: rgba(255, 255, 255, 0.9);
     z-index: 2;
     white-space: nowrap;
-    pointer-events: none; /* Чтобы текст не мешал кликам */
-    mix-blend-mode: overlay; /* Эффект наложения */
+    pointer-events: none;
+    mix-blend-mode: overlay;
 }
 
-/* Текстовый блок слева */
 .content-block {
     position: absolute;
     bottom: 80px;
@@ -140,7 +133,6 @@ body {
     margin-left: 10px;
 }
 
-/* Блок справа (NOISE IS YOURS) */
 .side-block {
     position: absolute;
     bottom: 80px;
@@ -149,11 +141,10 @@ body {
 }
 
 .noise-card {
-    /* Убираем белый фон и тень */
     background: #fff; 
     box-shadow: none; 
     
-    color: #fff; /* Меняем цвет текста на белый */
+    color: #fff;
     width: 550px;
     height: 267px;
     padding: 30px;
@@ -164,7 +155,6 @@ body {
     justify-content: space-between;
 }
 
-/* Блок с текстом */
 .card-text {
     flex: 1;
     padding-right: 20px;
@@ -179,36 +169,35 @@ body {
     margin-bottom: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.8); /* Тень для читаемости текста */
+    text-shadow: 0 2px 10px rgba(0,0,0,0.8);
 }
 
 .small-desc {
     font-size: 0.8rem;
     margin-bottom: 20px;
     line-height: 1.5;
-    color: rgba(0, 0, 0, 0.9); /* Слегка прозрачный белый */
+    color: rgba(0, 0, 0, 0.9);
     text-shadow: 0 1px 5px rgba(0,0,0,0.8);
 }
 
-/* Стрелка (теперь белая) */
 .card-arrow {
     position: absolute;
     bottom: -20px;
     left: 0;
     width: 40px;
     height: 40px;
-    border: 1px solid #fff; /* Белая рамка */
+    border: 1px solid #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s;
-    background: rgba(0,0,0,0.3); /* Полупрозрачная подложка под стрелку */
+    background: rgba(0,0,0,0.3);
     backdrop-filter: blur(5px);
 }
 
 .card-arrow svg {
-    stroke: #fff; /* Белая иконка */
+    stroke: #fff;
 }
 
 .card-arrow:hover {
@@ -219,15 +208,13 @@ body {
     stroke: #000;
 }
 
-/* Блок с картинкой */
 .card-image-container {
     width: 220px;
     flex-shrink: 0;
     position: relative;
     
-    /* Эффект вылезания */
-    margin-top: -50px; /* Сильнее вверх */
-    margin-right: -40px; /* Сильнее вправо */
+    margin-top: -50px;
+    margin-right: -40px;
     z-index: 2;
 }
 
@@ -235,12 +222,10 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    /* Тень только у картинки, чтобы отделить её от фона */
     filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5)); 
     transform: rotate(3deg);
 }
 
-/* Адаптивность для мобильных */
 @media (max-width: 768px) {
     .big-title {
         font-size: 30vw;
@@ -257,7 +242,7 @@ body {
     }
 
     .side-block {
-        display: none; /* Скрываем правый блок на мобильных для простоты */
+        display: none;
     }
     
     .navbar {
@@ -265,6 +250,6 @@ body {
     }
     
     .navbar nav {
-        display: none; /* Тут можно добавить бургер-меню */
+        display: none;
     }
 }
