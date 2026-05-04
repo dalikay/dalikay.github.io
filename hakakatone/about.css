@@ -106,14 +106,12 @@ body {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    /* background: linear-gradient(to right, rgba(0,0,0,0.7), transparent); */
 }
 
 .right-block {
     position: absolute;
     bottom: 0;
     right: 0;
-    /* background: linear-gradient(to left, rgba(0,0,0,0.7), transparent); */
 }
 
 .about-title {
